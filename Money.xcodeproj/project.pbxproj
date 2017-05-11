@@ -13,6 +13,7 @@
 		5B84C8511EC4F3D400D72301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B84C8501EC4F3D400D72301 /* Assets.xcassets */; };
 		5B84C8541EC4F3D400D72301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B84C8521EC4F3D400D72301 /* LaunchScreen.storyboard */; };
 		5B84C85F1EC4F3D500D72301 /* MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84C85E1EC4F3D500D72301 /* MoneyTests.swift */; };
+		5B84C86A1EC4F41200D72301 /* Euro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84C8691EC4F41200D72301 /* Euro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5B84C85A1EC4F3D500D72301 /* MoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B84C85E1EC4F3D500D72301 /* MoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTests.swift; sourceTree = "<group>"; };
 		5B84C8601EC4F3D500D72301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B84C8691EC4F41200D72301 /* Euro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5B84C8501EC4F3D400D72301 /* Assets.xcassets */,
 				5B84C8521EC4F3D400D72301 /* LaunchScreen.storyboard */,
 				5B84C8551EC4F3D400D72301 /* Info.plist */,
+				5B84C8691EC4F41200D72301 /* Euro.swift */,
 			);
 			path = Money;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				5B84C84C1EC4F3D400D72301 /* ViewController.swift in Sources */,
 				5B84C84A1EC4F3D400D72301 /* AppDelegate.swift in Sources */,
+				5B84C86A1EC4F41200D72301 /* Euro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
