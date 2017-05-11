@@ -11,4 +11,21 @@ import Foundation
 
 class Euro{
     
+    var _amount : Double = 0
+    
+    init() {
+         self._amount = 0
+    }
+    
+    init(amount: Double){
+      self._amount = amount
+    }
+    
+    
+    func multiply(multiplier : Double ) -> Euro {
+        
+        return Euro(amount: _amount * multiplier)
+    }
+    
+    
 }

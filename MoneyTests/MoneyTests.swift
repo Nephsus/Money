@@ -27,5 +27,15 @@ class MoneyTests: XCTestCase {
     
     }
     
+    func testMultiplication() {
+        
+        let five = Euro(amount: 5)
+        
+        let ten = five.multiply(multiplier: 2)
+        
+        XCTAssertEqual(ten._amount, 10)
+        
+    }
+    
     
 }
